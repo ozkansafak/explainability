@@ -1,0 +1,6 @@
+**/models/**
+**/data/**
+**/**/*.pyc
+utils/__pycache__/imports.cpython-37.pyc
+.ipynb_checkpoints
+

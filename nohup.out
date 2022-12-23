@@ -1,0 +1,443 @@
+[I 11:22:30.470 NotebookApp] Serving notebooks from local directory: /Users/Safak.Ozkan/Documents/work/mnist
+[I 11:22:30.471 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 11:22:30.471 NotebookApp] http://localhost:8888/?token=5c3a5047cf0ae6409ff6e6978c7ba82e207b8aaf7f233120
+[I 11:22:30.471 NotebookApp]  or http://127.0.0.1:8888/?token=5c3a5047cf0ae6409ff6e6978c7ba82e207b8aaf7f233120
+[I 11:22:30.471 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:22:30.477 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/Safak.Ozkan/Library/Jupyter/runtime/nbserver-16802-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=5c3a5047cf0ae6409ff6e6978c7ba82e207b8aaf7f233120
+     or http://127.0.0.1:8888/?token=5c3a5047cf0ae6409ff6e6978c7ba82e207b8aaf7f233120
+[I 11:22:51.043 NotebookApp] Kernel started: bd36707f-2590-4448-8696-2f9c19313370, name: python3
+[I 12:43:04.100 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:45:04.086 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:47:04.095 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:49:04.091 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:51:04.091 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:53:04.096 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:55:04.092 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:57:04.095 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:59:04.120 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 13:01:04.098 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 13:03:04.100 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 13:05:04.108 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 13:05:32.219 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:1a671a7466a543a4930c563b22e87e54
+[I 13:05:34.177 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:1a671a7466a543a4930c563b22e87e54
+[I 13:37:58.045 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:07:54.669 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:1a671a7466a543a4930c563b22e87e54
+[I 15:16:41.712 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:48:41.211 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[W 16:49:05.154 NotebookApp] 404 GET /static/notebook/js/main.min.js.map (::1) 10.17ms referer=None
+[I 16:50:41.214 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:52:25.409 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 16:52:26.138 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:52:26.340 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 16:52:26.340 NotebookApp] Replaying 3 buffered messages
+[I 16:52:41.212 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:54:41.206 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:58:41.209 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:00:41.204 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:01:27.837 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:02:41.959 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:15:19.013 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 17:15:19.543 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:15:19.644 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 17:15:19.644 NotebookApp] Replaying 3 buffered messages
+[I 17:16:41.232 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:17:07.834 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:18:41.227 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:20:41.225 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:22:41.230 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:23:01.825 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:24:41.231 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:26:41.207 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:28:41.210 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:30:41.210 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:32:41.211 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:34:41.217 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:36:42.256 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:38:41.221 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:45:35.547 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 18:00:09.372 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 18:00:10.768 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 19:06:14.760 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:46afc39e8ac148ab8e1302a81e95b7a5
+[I 11:17:43.350 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:19:41.284 NotebookApp] Saving file at /utils/imports.py
+[I 11:19:42.762 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:19:51.521 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:19:52.258 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 11:19:52.269 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:19:52.269 NotebookApp] Replaying 3 buffered messages
+[I 11:21:10.262 NotebookApp] Saving file at /utils/imports.py
+[I 11:21:26.597 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:21:42.759 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:22:27.518 NotebookApp] Saving file at /utils/imports.py
+[I 11:23:43.310 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:23:56.581 NotebookApp] Saving file at /utils/imports.py
+[I 11:24:02.892 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:24:03.419 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 11:24:03.429 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:24:03.430 NotebookApp] Replaying 3 buffered messages
+[I 11:24:32.930 NotebookApp] Saving file at /utils/imports.py
+[I 11:25:11.892 NotebookApp] Saving file at /utils/imports.py
+[I 11:25:42.760 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:25:48.978 NotebookApp] Saving file at /utils/imports.py
+[I 11:26:10.659 NotebookApp] Saving file at /utils/imports.py
+[I 11:26:16.291 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:26:28.266 NotebookApp] Saving file at /utils/imports.py
+[I 11:26:31.604 NotebookApp] Saving file at /utils/imports.py
+[I 11:26:46.660 NotebookApp] Saving file at /utils/imports.py
+[I 11:26:51.808 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:26:54.110 NotebookApp] Saving file at /utils/imports.py
+[I 11:27:05.332 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:27:11.757 NotebookApp] Saving file at /utils/imports.py
+[I 11:27:42.763 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:31:43.325 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:31:47.036 NotebookApp] Saving file at /utils/imports.py
+[I 11:32:36.597 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:34:01.986 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:34:18.075 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:39:02.669 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:39:03.304 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 11:39:03.313 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:39:03.314 NotebookApp] Replaying 3 buffered messages
+[I 11:39:42.754 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:54:18.378 NotebookApp] Saving file at /utils/imports.py
+[I 11:54:22.504 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:54:23.029 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 11:54:23.038 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:54:23.038 NotebookApp] Replaying 3 buffered messages
+[I 11:55:08.160 NotebookApp] Saving file at /utils/imports.py
+[I 11:55:09.174 NotebookApp] Saving file at /utils/imports.py
+[I 11:55:42.753 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:55:44.380 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:57:09.607 NotebookApp] Saving file at /utils/imports.py
+[I 11:57:25.511 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 11:59:14.397 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:59:14.926 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 11:59:15.042 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 11:59:15.042 NotebookApp] Replaying 3 buffered messages
+[I 11:59:42.749 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:01:28.832 NotebookApp] Saving file at /utils/imports.py
+[I 12:01:42.753 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:02:01.104 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:02:02.295 NotebookApp] Saving file at /utils/imports.py
+[I 12:02:29.063 NotebookApp] Saving file at /utils/imports.py
+[I 12:06:52.915 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:07:13.619 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 12:07:14.243 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 12:07:14.255 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 12:07:14.255 NotebookApp] Replaying 3 buffered messages
+[I 12:07:43.640 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:09:10.320 NotebookApp] Saving file at /utils/imports.py
+[I 12:09:42.761 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:11:24.457 NotebookApp] Saving file at /utils/imports.py
+[I 12:11:26.159 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 12:11:42.754 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:12:09.586 NotebookApp] Saving file at /utils/imports.py
+[I 12:12:12.447 NotebookApp] Saving file at /utils/imports.py
+[I 12:12:14.898 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 12:12:27.744 NotebookApp] Saving file at /utils/imports.py
+[I 12:13:30.245 NotebookApp] Saving file at /utils/imports.py
+[I 12:13:43.341 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:13:56.088 NotebookApp] Saving file at /utils/imports.py
+[I 12:14:00.859 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 12:14:04.901 NotebookApp] Saving file at /utils/imports.py
+[I 12:15:42.759 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:16:27.153 NotebookApp] Saving file at /utils/imports.py
+[I 12:17:01.450 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 12:17:21.735 NotebookApp] Saving file at /utils/imports.py
+[I 12:17:43.103 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:17:55.479 NotebookApp] Saving file at /utils/imports.py
+[I 12:18:06.082 NotebookApp] Saving file at /utils/imports.py
+[I 12:18:24.145 NotebookApp] Saving file at /utils/imports.py
+[I 12:18:56.334 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:19:09.972 NotebookApp] Saving file at /utils/imports.py
+[I 12:19:28.615 NotebookApp] Saving file at /utils/imports.py
+[I 12:19:42.755 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:22:59.061 NotebookApp] Saving file at /utils/imports.py
+[I 12:23:01.045 NotebookApp] Saving file at /utils/imports.py
+[I 12:23:35.144 NotebookApp] Saving file at /utils/imports.py
+[I 12:23:41.307 NotebookApp] Saving file at /utils/imports.py
+[I 12:23:42.754 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:24:33.394 NotebookApp] Saving file at /utils/imports.py
+[I 12:24:46.181 NotebookApp] Saving file at /utils/imports.py
+[I 12:25:05.065 NotebookApp] Saving file at /utils/imports.py
+[I 12:25:08.115 NotebookApp] Saving file at /utils/imports.py
+[I 12:25:17.766 NotebookApp] Saving file at /utils/imports.py
+[I 12:25:24.530 NotebookApp] Saving file at /utils/imports.py
+[I 12:25:42.753 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:26:32.647 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 12:27:43.230 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:21:36.590 NotebookApp] Saving file at /utils/imports.py
+[I 14:22:07.712 NotebookApp] Saving file at /utils/imports.py
+[I 14:22:11.571 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:22:54.759 NotebookApp] Saving file at /utils/imports.py
+[I 14:23:07.629 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:23:12.447 NotebookApp] Saving file at /utils/imports.py
+[I 14:23:15.003 NotebookApp] Saving file at /utils/imports.py
+[I 14:23:42.795 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:24:02.312 NotebookApp] Saving file at /utils/imports.py
+[I 14:24:13.924 NotebookApp] Saving file at /utils/imports.py
+[I 14:24:17.538 NotebookApp] Saving file at /utils/imports.py
+[I 14:25:11.427 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:25:27.545 NotebookApp] Saving file at /utils/imports.py
+[I 14:25:42.906 NotebookApp] Saving file at /utils/imports.py
+[I 14:25:43.163 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:25:46.039 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:25:53.964 NotebookApp] Saving file at /utils/imports.py
+[I 14:25:59.392 NotebookApp] Saving file at /utils/imports.py
+[I 14:27:04.462 NotebookApp] Saving file at /utils/imports.py
+[I 14:27:07.239 NotebookApp] Saving file at /utils/imports.py
+[I 14:27:16.509 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:27:18.882 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:27:43.455 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:27:54.112 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:29:42.789 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:30:22.758 NotebookApp] Saving file at /utils/imports.py
+[I 14:31:37.554 NotebookApp] Saving file at /utils/imports.py
+[I 14:31:42.792 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:32:26.714 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:33:42.787 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:35:43.417 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:37:43.148 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:45:08.355 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:45:11.604 NotebookApp] Saving file at /utils/imports.py
+[I 14:45:42.755 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:46:49.644 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:47:42.753 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:47:51.710 NotebookApp] Saving file at /utils/imports.py
+[I 14:48:04.584 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 14:48:05.220 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:48:05.689 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 14:48:05.691 NotebookApp] Replaying 3 buffered messages
+[I 14:48:54.395 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:49:42.756 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:51:42.753 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:53:43.485 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:54:09.537 NotebookApp] Saving file at /utils/imports.py
+[I 14:54:21.376 NotebookApp] Saving file at /utils/imports.py
+[I 14:54:27.751 NotebookApp] Saving file at /utils/imports.py
+[I 14:54:33.572 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:54:34.205 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:56:44.493 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:57:35.624 NotebookApp] Saving file at /utils/imports.py
+[I 14:57:37.943 NotebookApp] Saving file at /utils/imports.py
+[I 14:57:42.833 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:57:48.771 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:57:59.534 NotebookApp] Saving file at /utils/imports.py
+[I 14:58:06.390 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 14:58:06.911 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 14:58:06.920 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 14:58:06.921 NotebookApp] Replaying 3 buffered messages
+[I 14:58:22.000 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:58:27.720 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 14:59:43.316 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:00:39.677 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:01:42.766 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:07:43.530 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:09:43.437 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:15:11.715 NotebookApp] Saving file at /utils/imports.py
+[I 15:15:18.592 NotebookApp] Saving file at /utils/imports.py
+[I 15:15:27.306 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:15:27.830 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 15:15:27.843 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:15:27.843 NotebookApp] Replaying 3 buffered messages
+[I 15:15:42.816 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:16:04.194 NotebookApp] Saving file at /utils/imports.py
+[I 15:16:17.686 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:16:18.215 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 15:16:18.227 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:16:18.227 NotebookApp] Replaying 3 buffered messages
+[I 15:17:42.799 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:19:43.494 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:20:56.814 NotebookApp] Saving file at /utils/imports.py
+[I 15:21:15.570 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:21:48.832 NotebookApp] Saving file at /utils/imports.py
+[I 15:56:07.970 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 15:56:08.329 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 15:56:22.198 NotebookApp] Saving file at /utils/imports.py
+[I 15:56:36.072 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:56:36.598 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 15:56:36.607 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 15:56:36.607 NotebookApp] Replaying 3 buffered messages
+[I 15:57:43.225 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 15:59:42.874 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:01:10.364 NotebookApp] Saving file at /utils/imports.py
+[I 16:01:12.498 NotebookApp] Saving file at /utils/imports.py
+[I 16:01:31.606 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:01:42.871 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:01:54.978 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:01:55.505 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:01:55.514 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:01:55.515 NotebookApp] Replaying 3 buffered messages
+[I 16:02:11.346 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:02:11.874 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:02:11.883 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:02:11.883 NotebookApp] Replaying 3 buffered messages
+[I 16:03:43.461 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:05:42.875 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:06:20.591 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:06:25.751 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:06:25.771 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:06:25.771 NotebookApp] Replaying 20 buffered messages
+[I 16:07:05.111 NotebookApp] Saving file at /utils/imports.py
+[I 16:07:43.543 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:08:14.471 NotebookApp] Saving file at /utils/imports.py
+[I 16:08:23.619 NotebookApp] Saving file at /utils/imports.py
+[I 16:09:42.588 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:10:24.652 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:10:25.174 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:10:25.186 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:10:25.186 NotebookApp] Replaying 3 buffered messages
+[I 16:11:43.292 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:21:42.901 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:23:42.899 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:29:42.908 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:31:42.912 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:33:42.906 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:35:43.560 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:37:22.961 NotebookApp] Saving file at /utils/imports.py
+[I 16:37:29.101 NotebookApp] Saving file at /utils/imports.py
+[I 16:37:43.565 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:37:47.643 NotebookApp] Saving file at /utils/imports.py
+[I 16:38:03.986 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:38:04.515 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:38:04.527 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:38:04.527 NotebookApp] Replaying 3 buffered messages
+[I 16:39:43.644 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:43:32.640 NotebookApp] Saving file at /utils/imports.py
+[I 16:43:41.999 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:43:42.521 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:43:42.531 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:43:42.531 NotebookApp] Replaying 3 buffered messages
+[I 16:43:42.914 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:45:02.961 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:45:03.401 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:45:03.410 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:45:03.410 NotebookApp] Replaying 3 buffered messages
+[I 16:45:43.509 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:46:19.101 NotebookApp] Saving file at /utils/imports.py
+[I 16:46:25.795 NotebookApp] Saving file at /utils/imports.py
+[I 16:47:02.814 NotebookApp] Saving file at /utils/imports.py
+[I 16:47:19.786 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:47:20.311 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:47:20.323 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:47:20.323 NotebookApp] Replaying 3 buffered messages
+[I 16:47:42.900 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:49:43.509 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:49:55.690 NotebookApp] Saving file at /utils/imports.py
+[I 16:49:58.598 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:49:59.125 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:49:59.135 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:49:59.135 NotebookApp] Replaying 3 buffered messages
+[I 16:50:13.552 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:50:13.978 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 16:50:14.069 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 16:50:14.069 NotebookApp] Replaying 3 buffered messages
+[I 16:51:17.124 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:51:18.112 NotebookApp] Saving file at /utils/imports.py
+[I 16:53:42.903 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 16:55:43.870 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:05:37.000 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:06:27.179 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:07:41.639 NotebookApp] Saving file at /utils/imports.py
+[I 17:07:43.806 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:08:17.807 NotebookApp] Saving file at /utils/imports.py
+[I 17:08:18.277 NotebookApp] Saving file at /utils/imports.py
+[I 17:08:18.692 NotebookApp] Saving file at /utils/imports.py
+[I 17:08:35.411 NotebookApp] Saving file at /utils/imports.py
+[I 17:10:17.581 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:10:20.341 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:10:35.712 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:13:42.909 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:19:04.137 NotebookApp] Saving file at /utils/imports.py
+[I 17:19:43.475 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:19:46.242 NotebookApp] Saving file at /utils/imports.py
+[I 17:20:00.486 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:20:06.415 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:20:56.058 NotebookApp] Saving file at /utils/imports.py
+[I 17:21:39.507 NotebookApp] Saving file at /utils/imports.py
+[I 17:21:42.905 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:22:09.119 NotebookApp] Saving file at /utils/imports.py
+[I 17:22:11.618 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:22:30.375 NotebookApp] Kernel interrupted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:23:43.211 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:25:42.887 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:26:47.579 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:26:48.099 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:26:48.251 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:26:48.251 NotebookApp] Replaying 3 buffered messages
+[I 17:27:43.208 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:35:59.026 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:35:59.549 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:35:59.961 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:35:59.961 NotebookApp] Replaying 3 buffered messages
+[I 17:37:43.549 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:39:42.894 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:41:42.892 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:41:47.304 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:41:47.828 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:41:47.840 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:41:47.840 NotebookApp] Replaying 3 buffered messages
+[I 17:42:06.638 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:43:01.043 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:43:36.234 NotebookApp] Saving file at /utils/imports.py
+[I 17:43:42.888 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:44:09.596 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:44:10.123 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:44:10.136 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:44:10.137 NotebookApp] Replaying 3 buffered messages
+[I 17:45:42.892 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:46:58.368 NotebookApp] Starting buffering for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:46:58.897 NotebookApp] Kernel restarted: bd36707f-2590-4448-8696-2f9c19313370
+[I 17:46:58.906 NotebookApp] Restoring connection for bd36707f-2590-4448-8696-2f9c19313370:d5bb2d5cb61a475a89cd54900be36e08
+[I 17:46:58.906 NotebookApp] Replaying 3 buffered messages
+[I 17:47:42.857 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:49:42.858 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:51:42.860 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[I 17:53:43.508 NotebookApp] Saving file at /notebooks/Untitled.ipynb
+[E 18:03:08.503 NotebookApp] Uncaught exception PATCH /api/contents/notebooks/Untitled.ipynb (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='PATCH', uri='/api/contents/notebooks/Untitled.ipynb', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/tornado/web.py", line 1703, in _execute
+        result = await result
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/tornado/gen.py", line 209, in wrapper
+        yielded = next(result)
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/notebook/services/contents/handlers.py", line 125, in patch
+        model = yield maybe_future(cm.update(model, path))
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 296, in update
+        self.rename(path, new_path)
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 284, in rename
+        self.rename_file(old_path, new_path)
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 579, in rename_file
+        if os.path.exists(new_os_path) and not samefile(old_os_path, new_os_path):
+      File "/Users/Safak.Ozkan/opt/miniconda3/envs/ic_env/lib/python3.7/genericpath.py", line 100, in samefile
+        s1 = os.stat(f1)
+    FileNotFoundError: [Errno 2] No such file or directory: '/Users/Safak.Ozkan/Documents/work/mnist/notebooks/Untitled.ipynb'
+[W 18:03:08.520 NotebookApp] Unhandled error
+[E 18:03:08.520 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "31",
+      "Sec-Ch-Ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|fc5c94c9|41df8cb2c42f25626ed236d35df4b182|1614729385",
+      "Sec-Ch-Ua-Platform": "\"macOS\"",
+      "Origin": "http://localhost:8888",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "http://localhost:8888/notebooks/notebooks/Untitled.ipynb?kernel_name=python3",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9,fr;q=0.8,tr;q=0.7,es;q=0.6",
+      "Cookie": "_xsrf=2|fc5c94c9|41df8cb2c42f25626ed236d35df4b182|1614729385; username-localhost-8890=\"2|1:0|10:1670361029|23:username-localhost-8890|44:M2Y0YWRiZDYwYjBmNDZkOWIxYjExOWUwMDI4ZDViNWI=|0e0e6aa0e68aed4f33fed775d251ca6cd292791b58630ce08277c46683be7e45\"; username-localhost-8888=\"2|1:0|10:1671650552|23:username-localhost-8888|44:MDIyYWNiYjBmMzgwNDQ2YWJmNDI3YmE2Mjk2ZTcwZGQ=|6cbe7961dc0fa3469217b48de67ef4ff12383f8aea661cf370c9adb94325041f\""
+    }
+[E 18:03:08.521 NotebookApp] 500 PATCH /api/contents/notebooks/Untitled.ipynb (::1) 18.19ms referer=http://localhost:8888/notebooks/notebooks/Untitled.ipynb?kernel_name=python3
+[I 18:03:23.813 NotebookApp] Saving file at /notebooks/main.ipynb
