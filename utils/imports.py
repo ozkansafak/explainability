@@ -27,9 +27,15 @@ pylab.rcParams.update({'legend.fontsize': 'large',
                        'xtick.labelsize': 'large',
                        'ytick.labelsize': 'large'})
 
-language_models = {'multi-qa-mpnet-base-dot-v1': 'multiqampnet',
-                   'all-MiniLM-L12-v2': 'MiniLmv2',
-                   'all-distilroberta-v1': 'dr1'}
+
+# index of test sample in test_loader is 9799. (It's label is '1')
+idx_xt = 9799 
+
+# 'output0' is the network output, -ln(p), of X_test_original[idx_xt] of the model trained for 10 epochs on 
+# entirety train set.
+output0 = np.array([-1.7527588e+01, -1.8690270e-04, -9.6468792e+00, -1.3832020e+01,
+                    -9.7990446e+00, -1.5730585e+01, -1.5239909e+01, -1.0191515e+01,
+                    -1.0500584e+01, -1.5025746e+01])
 
 
 def print_runtime(start, pflag=True):
@@ -63,14 +69,14 @@ class Net(nn.Module):
 def train(model, optimizer, train_loader, train_losses, train_counter, 
           test_loader, test_losses, test_counter, 
           batch_size, epoch, wanna_test=True):
-    
+
     model.train()
     for q, (batch_data, batch_target) in enumerate(train_loader):
         if wanna_test==True and q in [0, len(train_loader) // 2]:
-            test(model, test_loader, test_losses, test_counter, (
-                (q+1)*batch_size) / len(train_loader.dataset) + epoch)
+            test(model, test_loader, test_losses, test_counter, 
+                 ((q+1)*batch_size) / len(train_loader.dataset) + epoch)
             model.train()
-            
+
         optimizer.zero_grad()
         output = model(batch_data) 
         loss = F.nll_loss(output, batch_target)
@@ -84,12 +90,7 @@ def train(model, optimizer, train_loader, train_losses, train_counter,
         idx = np.argwhere((arr_train_counter > epoch) & (arr_train_counter <= epoch+1))[:,0]
         epoch_train_loss = np.mean(np.array(train_losses)[idx])
 
-        print(f'epoch: {epoch} \tTrain_Loss: {loss.item():.6f}', end='\r')
-        
-    print(f'epoch: {epoch} \tTrain_Loss: {epoch_train_loss:.6f}', end='  ')
-        
-    # torch.save(model.state_dict(), '../models/model.pth')
-    # torch.save(optimizer.state_dict(), '../models/optimizer.pth')
+    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}', end='\n')
 
 
 def test(model, test_loader, test_losses, test_counter, epoch):
@@ -106,7 +107,9 @@ def test(model, test_loader, test_losses, test_counter, epoch):
         test_loss /= len(test_loader.dataset)
         test_losses.append(test_loss)
         test_counter.append(epoch)
+        acc = 100. * correct / len(test_loader.dataset)
         # print(f'Test loss: {test_loss:.4f}, Accuracy: ({100. * correct / len(test_loader.dataset):.2f}%)' + '  '* 30, end='\n')
+        return acc
 
 
 def get_train_loader(batch_size, shuffle=False):
@@ -147,8 +150,42 @@ def plotter_random_samples(test_loader, num_examples=6):
     fig = plt.figure(figsize=(16, num_examples//2))
     for i, idx in enumerate(sorted(np.random.choice(len(example_data), num_examples, False))):
         plt.subplot(num_examples//6, 6, i+1)
-        plt.imshow(example_data[idx][0], cmap='gray', interpolation='none')
         plt.title(f'idx={idx}, label: {example_targets[idx]}', fontsize=14)
         plt.xticks([])
         plt.yticks([])
+
+
+def train_with_torch_tensors(model, optimizer, train_losses, train_counter, test_loader, test_losses, test_counter,
+                             X_train, y_train, batch_size, epoch):
+
+    model.train()
+    # for-loop goes for 938 cycles.
+    for batch_no in range(int(np.ceil(len(y_train) / batch_size))):
+        batch_data = X_train[batch_no*batch_size : (batch_no+1) * batch_size]
+        batch_target = y_train[batch_no*batch_size : (batch_no+1) * batch_size]
+
+        optimizer.zero_grad()
+        output = model(batch_data) 
+        loss = F.nll_loss(output, batch_target)
+        loss.backward()
+        optimizer.step()
+
+        train_losses.append(loss.item())
+        train_counter.append(((batch_no+1)*batch_size) / len(y_train) + epoch)
+
+        arr_train_counter = np.array(train_counter)
+        idx = np.argwhere((arr_train_counter > epoch) & (arr_train_counter <= epoch+1))[:,0]
+        epoch_train_loss = np.mean(np.array(train_losses)[idx])
+
+    acc = test(model, test_loader, test_losses, test_counter, epoch+1)
+    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}   Test_Loss: {test_losses[-1]:.6f}   Accuracy: {acc:.2f}%')
+
+
+
+
+
+
+
+
+
 
