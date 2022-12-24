@@ -28,14 +28,28 @@ pylab.rcParams.update({'legend.fontsize': 'large',
                        'ytick.labelsize': 'large'})
 
 
-# index of test sample in test_loader is 9799. (It's label is '1')
-idx_xt = 9799 
+""" index of test sample in test_loader is 9799, with label == 1
+    Other alternatives:
+            idx_xt = 900, label = 1
+            idx_xt = 3906, label = 1
+            idx_xt = 703, label = 7
+            idx_xt = 1477, label = 7
+            idx_xt = 9036, label = 7
+            idx_xt = 5835, label = 7
+            
+"""
 
-# 'output0' is the network output, -ln(p), of X_test_original[idx_xt] of the model trained for 10 epochs on 
-# entirety train set.
-output0 = np.array([-1.7527588e+01, -1.8690270e-04, -9.6468792e+00, -1.3832020e+01,
-                    -9.7990446e+00, -1.5730585e+01, -1.5239909e+01, -1.0191515e+01,
-                    -1.0500584e+01, -1.5025746e+01])
+# 'output0' is the network output, -ln(p) of X_test_original[idx_xt] forward propped on 
+# the model trained for 10 epochs on the entirety train set.
+# idx_xt = 9799 
+# output0 = np.array([-1.7283735e+01, -1.3398226e-04, -9.9062271e+00, -1.4030624e+01,
+#                     -1.0261919e+01, -1.6715294e+01, -1.5527508e+01, -1.0730595e+01,
+#                     -1.0553279e+01, -1.5390485e+01]) 
+
+idx_xt = 5835 
+# output0 = np.array([ -4.5651717 ,  -9.473113  ,  -1.6655078 ,  -5.235294  ,
+#                      -3.545306  ,  -9.924194  , -11.835953  ,  -0.78873056,
+#                      -3.7437139 ,  -1.2444761 ])  
 
 
 def print_runtime(start, pflag=True):
@@ -45,6 +59,10 @@ def print_runtime(start, pflag=True):
         return None
     else:
         return f' (...Runtime: {int((end-start)//60)} min {int((end-start)%60):2d} sec)'
+
+
+def softmax(x):
+    return(np.exp(x)/np.exp(x).sum())
 
 
 class Net(nn.Module):
@@ -90,7 +108,7 @@ def train(model, optimizer, train_loader, train_losses, train_counter,
         idx = np.argwhere((arr_train_counter > epoch) & (arr_train_counter <= epoch+1))[:,0]
         epoch_train_loss = np.mean(np.array(train_losses)[idx])
 
-    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}', end='\n')
+    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}', end='')
 
 
 def test(model, test_loader, test_losses, test_counter, epoch):
@@ -142,15 +160,34 @@ def get_test_loader():
     return test_loader
 
 
-def plotter_random_samples(test_loader, num_examples=6):    
+def plotter_random_samples(test_loader, num_examples=6, target_label=7):    
 
     examples = enumerate(test_loader)
-    batch_idx, (example_data, example_targets) = next(examples)
+    _, (example_data, example_targets) = next(examples)
+    target_indices = np.argwhere(example_targets == target_label)[0]
 
     fig = plt.figure(figsize=(16, num_examples//2))
-    for i, idx in enumerate(sorted(np.random.choice(len(example_data), num_examples, False))):
-        plt.subplot(num_examples//6, 6, i+1)
+    for q, idx in enumerate(sorted(np.random.choice(target_indices, num_examples, False))):
+        plt.subplot(num_examples//6, 6, q+1)
+        plt.imshow(example_data[idx][0], cmap='gray', interpolation='none')
         plt.title(f'idx={idx}, label: {example_targets[idx]}', fontsize=14)
+        plt.xticks([])
+        plt.yticks([])
+
+
+def plotter_ranked_sample_importance(X_train_original, X_test_original, target_label, grad, num_examples=96):  
+    ranked_idx = [i for (i, g) in sorted(grad.items(), key=lambda x:-x[1][target_label])]
+    fig = plt.figure(figsize=(4, 4))
+    plt.imshow(X_test_original[idx_xt][0], cmap='gray', interpolation='none')
+    plt.title(f'idx_xt={idx_xt}, label:{target_label}', fontsize=14)
+    plt.xticks([])
+    plt.yticks([])
+    
+    fig = plt.figure(figsize=(16, 2 * (num_examples//6) + 6))
+    for q, idx in enumerate(ranked_idx[:num_examples]):
+        plt.subplot(num_examples//6, 6, q+1)
+        plt.imshow(X_train_original[idx][0], cmap='gray', interpolation='none')
+        plt.title(f'idx={idx}, label: {target_label}', fontsize=14)
         plt.xticks([])
         plt.yticks([])
 
@@ -178,11 +215,44 @@ def train_with_torch_tensors(model, optimizer, train_losses, train_counter, test
         epoch_train_loss = np.mean(np.array(train_losses)[idx])
 
     acc = test(model, test_loader, test_losses, test_counter, epoch+1)
-    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}   Test_Loss: {test_losses[-1]:.6f}   Accuracy: {acc:.2f}%')
+    print(f'epoch: {epoch}   Train_Loss: {epoch_train_loss:.6f}   Test_Loss: {test_losses[-1]:.6f}   Test_Accuracy: {acc:.2f}%')
 
 
+def save_output0(model, idx_xt, X_test_original):
+    """ Saves softmax probabilities of test sample `X_test_original[idx_xt]` under ../models 
+    """
+    
+    model.eval()
+    print(f'idx_xt:{idx_xt}')
+    output0 = np.exp(model(X_test_original[idx_xt:idx_xt+1]).detach().numpy())[0]
+    fname = f'../models/output0_idx_xt{idx_xt}.npy'
+    with open(fname, 'wb') as f:
+        np.save(f, output0)
+        
+    print(f'output0 saved to {fname}')
+    
+
+    
+def load_output0(idx_xt):
+    """ Returns softmax probabilities of test sample `X_test_original[idx_xt]` that's saved to disk
+    """
+    
+    with open(f'../models/output0_idx_xt{idx_xt}.npy', 'rb') as f:
+        output0 = np.load(f)
+    return output0
 
 
+def initialize_grad_dict():
+    fname = '../models/grad_dict.pkl'
+    if glob.glob(fname):
+        with open(fname, 'rb') as f:
+            grad = pickle.load(f)
+        print("loaded grad from  ../models/grad_dict.pkl")
+    else:
+        grad = dict()
+        print('initialized empty dictionary: grad = dict()')
+        
+    return grad
 
 
 

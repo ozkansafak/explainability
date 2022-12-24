@@ -1,5 +1,4 @@
 **/*.out
-**/models/*
 **/data/*
 **/*.pyc
 **/.ipynb_checkpoints/**
